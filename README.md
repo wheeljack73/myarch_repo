@@ -1,2 +1,2 @@
 # myarch_repo
-myArch package repository.
+Package repository for myArch.
