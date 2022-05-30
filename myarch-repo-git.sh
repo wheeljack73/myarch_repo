@@ -19,7 +19,9 @@ tput sgr0
 echo
 
 echo "Repo folder - updating package database.."
+cd x86_64
 repo-add myarch_repo.db.tar.gz *.pkg.tar.zst
+cd ..
 
 # Check files online are not more up to date.
 echo "Checking for newer files online first.."
