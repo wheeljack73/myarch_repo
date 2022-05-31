@@ -21,6 +21,7 @@ echo
 echo "Repo folder - updating package database.."
 cd x86_64
 repo-add -n -R myarch_repo.db.tar.gz *.pkg.tar.zst
+rm *.old
 sleep 5
 cd ..
 
