@@ -20,7 +20,8 @@ echo
 
 echo "Repo folder - updating package database.."
 cd x86_64
-repo-add myarch_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R myarch_repo.db.tar.gz *.pkg.tar.zst
+sleep 5
 cd ..
 
 # Check files online are not more up to date.
